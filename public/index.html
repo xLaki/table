@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>table</title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but table doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app">
+      <table>
+        <thead>
+          <tr>
+            <th>State</th>
+            <th>Carriers</th>
+            <th>Average Premium</th>
+            <th>Top Carrier</th>
+            <th>Potential Savings</th>
+          </tr>
+          <tr>
+            <td v-for="items in table">
+              {{ app.table[1].State }}
+            </td>
+            <script src="table.js"></script>
+          </tr>
+          <tr>
+            <td>location 2</td>
+            <td>phineas</td>
+            <td>iknowwhatweregonnadotoday</td>
+            <td>whoaao</td>
+            <td>:chog:</td>
+          </tr>
+          <tr>
+            <td>location 3</td>
+            <td>ferb</td>
+            <td>(silent)</td>
+            <td>(also silent)</td>
+            <td>:kanyestare:</td>
+          </tr>
+        </thead>
+      </table>
+    </div>
+    <!-- built files will be auto injected -->
+    <script src="../src/main.js"></script>
+  </body>
+</html>
